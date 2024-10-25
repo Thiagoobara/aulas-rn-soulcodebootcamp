@@ -29,114 +29,117 @@ O corpo da tabela (<tbody>) com as informações de cada palestra e workshop.
 Se necessário, use <tfoot> para notas finais ou resumos.-->
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Agenda da Conferência de Tecnologia</title>
-    </head>
-    <body>
 
-         <!--Um título principal (<h1>) que descreve o evento: "Agenda da Conferência de Tecnologia"-->
-        <header>
-            <h1>Agenda da Conferência de Tecnologia</h1>
-        </header>
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda da Conferência de Tecnologia</title>
+</head>
 
-        <!--Uma seção de introdução (<section>) que apresente um resumo do evento em um parágrafo, explicando a data, local e objetivo da conferência.-->
+<body>
 
-        <section>
-           <h2><p>A Conferência de Tecnologia acontece no 29 de Setembro no Centro de Convenções. O objetivo do evento é promover o compartilhamento de conhecimento sobre inovações tecnológicas e melhores práticas na área de desenvolvimento de software</p></h2>
-        </section>
+    <!--Um título principal (<h1>) que descreve o evento: "Agenda da Conferência de Tecnologia"-->
+    <header>
+        <h1>Agenda da Conferência de Tecnologia</h1>
+    </header>
 
-<!--Uma tabela que organize a agenda de palestras e workshops, contendo as seguintes informações em colunas:
+
+    <!--Uma seção de introdução (<section>) que apresente um resumo do evento em um parágrafo, explicando a data, local e objetivo da conferência.-->
+
+    <section>
+        <h2>
+            <p>A Conferência de Tecnologia acontece no 29 de Setembro no Centro de Convenções. O objetivo do evento é
+                promover o compartilhamento de conhecimento sobre inovações tecnológicas e melhores práticas na área de
+                desenvolvimento de software</p>
+        </h2>
+    </section>
+
+    <!--Uma tabela que organize a agenda de palestras e workshops, contendo as seguintes informações em colunas:
 Data
 Horário
 Título da Palestra/Workshop
 Palestrante
-Local-->       
-            <table border="3" style="border-collapse: collapse;">
-                <thead>
-                    <tr>
-                        <th>Data</th>
-                        <th>Horário</th>
-                        <th>Programadores do Amanhã</th>
-                        <th>Palestrante</th>
-                        <th>Sala</th>
-                    
-                </thead>
-                
-                <tbody>
-                    <td>29/09</td>
-                    <td>13:00</td>
-                    <td>Bootcamp OLX</td>
-                    <td>Prof.Marcos Ventura</td>
-                    <td>Sala 2</td>
-                </tbody>
+Local-->
+    <table border="3" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>Data</th>
+                <th>Horário</th>
+                <th>Programadores do Amanhã</th>
+                <th>Palestrante</th>
+                <th>Sala</th>
 
-                <tbody>
-                    <td>29/09</td>
-                    <td>16:00</td>
-                    <td>Html</td>
-                    <td>Prof.Claudio Careca</td>
-                    <td>Salão Principal</td>
-                </tbody>
-                </tr>
+        </thead>
 
-                <!--m rodapé (<footer>) com informações de contato e links para as redes sociais do evento.-->
-           
-                <tbody>
-                    <tfoot>
-                        <td colspan="5">*Sujeito a alterações</td>
-                    </tfoot>
-                </tbody>
-                
-            </table>
-            <section>
-                <h2>Cadastro</h2>
-                <form action="">
-                    <label for="cnome">Nome</label>
-                    <input type="text" id="cnome"> <br>
-                    <label for="cEmail">E-mail</label>
-                    <input type="email" id="cEmail"> <br>
-                    <label for="cS">Senha</label>
-                    <input type="password" id="cSenha">
+        <tbody>
+            <td>29/09</td>
+            <td>13:00</td>
+            <td>Bootcamp OLX</td>
+            <td>Prof.Marcos Ventura</td>
+            <td>Sala 2</td>
+        </tbody>
 
-                    <button>Enviar</button>
+        <tbody>
+            <td>29/09</td>
+            <td>16:00</td>
+            <td>Html</td>
+            <td>Prof.Claudio Careca</td>
+            <td>Salão Principal</td>
+        </tbody>
+        </tr>
 
-                </form>
-            </section>
-            <footer>
-                <nav>
-                    <ul>
-                        <li><a href="http" target="_blank">Facebook</a></li>
-                        <li><a href="http" target="_blank">Instagram</a></li>
-                       
-                    </ul>
-                </nav>
-            </footer>
-            <!--Use <aside> para incluir informações adicionais ou curiosidades sobre os palestrantes.-->
-            <article>
-                <aside>
-                    <h2>Curiosidades sobre os Palestrantes</h2>
-                    <p>Prof. Marcos Ventura : Especialista em IA e automação, autor de "Inteligência Artificial para o Mundo Real".</p>
-                    <p>Prof. Claudio Careca : Mestre em Segurança da Informação, conhecido por seu estilo descontraído e humorístico.</p>
-                </aside>
-            </article>
-            <footer>
-                <p>Contato: contato@contato</p>
-                <p>Siga-nos nas redes sociais:</p>
-                <ul>
-                    <li><a href="">Facebook</a></li>
-                    <li><a href="">Twitter</a></li>
-                    <li><a href="">LinkedIn</a></li>
-                </ul>
-            </footer>
-                <div>
+        <!--m rodapé (<footer>) com informações de contato e links para as redes sociais do evento.-->
 
-                </div>
-            </footer>
-            
-            
-                        
-    </body>
+        <tbody>
+        <tfoot>
+            <td colspan="5">*Sujeito a alterações</td>
+        </tfoot>
+        </tbody>
+
+    </table>
+    <section>
+        <h2>Cadastro</h2>
+        <form action="">
+            <label for="cnome">Nome</label>
+            <input type="text" id="cnome"> <br>
+            <label for="cEmail">E-mail</label>
+            <input type="email" id="cEmail"> <br>
+            <label for="cS">Senha</label>
+            <input type="password" id="cSenha">
+
+            <button>Enviar</button>
+
+        </form>
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="http" target="_blank">Facebook</a></li>
+                <li><a href="http" target="_blank">Instagram</a></li>
+
+            </ul>
+        </nav>
+    </footer>
+    <!--Use <aside> para incluir informações adicionais ou curiosidades sobre os palestrantes.-->
+    <article>
+        <aside>
+            <h2>Curiosidades sobre os Palestrantes</h2>
+            <p>Prof. Marcos Ventura : Especialista em IA e automação, autor de "Inteligência Artificial para o Mundo
+                Real".</p>
+            <p>Prof. Claudio Careca : Mestre em Segurança da Informação, conhecido por seu estilo descontraído e
+                humorístico.</p>
+        </aside>
+    </article>
+    <footer>
+        <p>Contato: contato@contato</p>
+        <p>Siga-nos nas redes sociais:</p>
+        <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">LinkedIn</a></li>
+        </ul>
+    </footer>
+
+</body>
+
 </html>
