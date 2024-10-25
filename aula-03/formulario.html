@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro de Usuátio</title>
+        </head>
+    <body>
+        <h2>Cadastro</h2>
+
+        <!--<form para iniciar PARA SER OBRIGADO A PREENCHER required-->
+        <form>
+            <div>
+                <label for="cNome">Nome:</label>
+                <input type="text" id="cNone" name="nome" placeholder="Seu nome" required/>   <!--fecha na hora que abre-->
+            </div>
+
+            <div>
+                <label for="cEmail"> Email:</label>
+                <input type="email" id="cEmail" name="Email" placeholder="Seu email" required/>
+            </div>
+
+            <div>
+                <label for="cSenha">Senha:</label>
+                <input type="password" id="cSenha" name="Senha" placeholder="Digite sua senha" minlength="8" required/>
+            </div>
+            <div>
+                <label for="Ctelefone">Telefone:</label>
+                <input type="tel" id="Ctelefone" name="Telefone"
+                placeholder="Digite seu N° de Telefone" required/>
+            
+            </div>
+            <div>
+                <label for="clinkedin">Link do Linkedin:</label>
+                <input type="url" name="Linkedin" id="clinkedin" placeholder="Seu link"/>
+            </div>
+            <!--PARA NUMEROS type= "number"-->
+            <div>
+                <label for="cIdade">Idade</label>
+                <input type="number" min="0" max="130" name="Idade" id="cIdade" placeholder="Sua Idade" required/>
+            </div>
+            <!--PARA DATA  "DATE" -->
+            <div>
+                <label for="cDataNasc">Data de Nascimento</label>
+                <input type="date" name="Data de Nascimento" id="cDataNasc" min="2000-01-05" max="2024-10-24" required/>
+            </div>
+            <!--ENVIO DE ARQUIVO  type="file"  accept para filtar o tipo de arquivo-->
+            <div>
+                <label for="cFoto">Sua Foto</label>
+                <input type="file" id="cFoto" name="foto" accept=".jpg, .png" />
+                <br/><small>Arquivo de extensão .png/ .jpg</small>
+            </div>
+
+            <!--para multiplas type=radio ,escolhas inverter o input e o label-->  
+            <div>
+                <p>Sua linguagem favorita</p>
+                <input type="radio" id="html" name="linguagem" required/>
+                <label for="html">HTML</label>
+
+                <input type="radio" id="css" name="linguagem" required/>
+                <label for="css">CSS</label>
+
+                <input type="radio" id="javascript" name="linguagem" required/>
+                <label for="javascript">JavaScript</label>
+            </div>
+            <!--para texto nao precisa de input e sim o textarea -->
+            <div>
+                <label for="cDescricao">Fale sobre você</label>
+                <textarea name="descricao" id="cDescricao" placeholder="Fala sobre seus Hobbies "></textarea> 
+            </div>
+
+            <!--PARA ESCOLHA DE OPCOES -->
+            <div>
+                <label for="cEscolaridade">Escolaridade</label>
+                <select name="Escolaridade" id="cEscolaridade">
+                    <option value="">Selecione uma opção</option>
+                    <option>Ensino Fundamental Completo</option>
+                    <option>Ensino Médio Completo</option>
+                    <option>Ensino Supeior Completo</option>
+                </select>
+            </div>
+
+            <!--Check box para aceitar algo-->
+            <div>
+                <input type="checkbox" id="cReceberemail" name="receberEmail" required/>
+                <label for="cReceberemail">Quero receber Emails promocionais</label>
+            </div>
+
+            <!--Botao de envio-->
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+            <!--Botao para outro lugar outr afunção ex abrir um pag -->
+            <div>
+                <button type="button">Ajuda</button>
+            </div>
+        </form>
+    </body>
+</html>

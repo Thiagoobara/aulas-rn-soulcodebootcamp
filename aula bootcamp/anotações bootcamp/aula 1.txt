@@ -1,0 +1,20 @@
+anotações 1 aula
+titulo bootcamp olx inclutech
+no corpo 
+assunto
+comandos de terminal 
+pwer shel e prompt de comando
+C:\Users\User> dir de diretorio
+C:\Users\User> cls de clear
+C:\Users\User>cd desktop (cd para mudar o terminal cd + a pasta) ex C:\Users\User\Desktop>
+C:\Users\User\Desktop>cd .. para voltar um página 
+C:\Users\User\Desktop>mkdir para criar o diretorio ex mkdir + nome da pasta 
+C:\Users\User\Desktop\testando>cd ../.. para voltar 2 casas ../../.. 3 e assim por diante 
+C:\Users\User\Desktop\testando> exit para sair 
+
+extensao 
+live serve
+
+node e um app que roda o java
+
+atalho para ctrl + j fecha ou abre 

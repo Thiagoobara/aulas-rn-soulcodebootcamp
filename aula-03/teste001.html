@@ -1,0 +1,127 @@
+<!--Cenário:
+
+Você foi encarregado de criar uma página de "Agenda de Eventos" para um site que exibe informações sobre palestras e workshops de uma conferência. Devido a restrições técnicas, você não pode usar CSS e deve se basear exclusivamente em HTML semântico e tabelas para organizar o conteúdo.
+
+Requisitos:
+
+A página deve ser composta por:
+
+Um título principal (<h1>) que descreve o evento: "Agenda da Conferência de Tecnologia".ok
+Uma seção de introdução (<section>) que apresente um resumo do evento em um parágrafo, explicando a data, local e objetivo da conferência.
+Uma tabela que organize a agenda de palestras e workshops, contendo as seguintes informações em colunas:
+Data
+Horário
+Título da Palestra/Workshop
+Palestrante
+Local
+Um rodapé (<footer>) com informações de contato e links para as redes sociais do evento.
+Utilize tags semânticas adequadas para estruturar a página:
+Use <header> para o cabeçalho com o nome do evento.
+Use <article> para descrever as palestras de destaque, se necessário.
+Use <nav> para incluir links de navegação para outras páginas (mesmo que seja apenas texto "Home" e "Sobre").
+Use <aside> para incluir informações adicionais ou curiosidades sobre os palestrantes.
+
+
+A tabela de agenda deve ser inserida utilizando a tag <table> e deve conter:
+
+O cabeçalho da tabela (<thead>) com os títulos das colunas.
+O corpo da tabela (<tbody>) com as informações de cada palestra e workshop.
+Se necessário, use <tfoot> para notas finais ou resumos.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda da Conferência de Tecnologia</title>
+    </head>
+    <body>
+
+         <!--Um título principal (<h1>) que descreve o evento: "Agenda da Conferência de Tecnologia"-->
+        <header>
+            <h1>Agenda da Conferência de Tecnologia</h1>
+        </header>
+        
+
+        <!--Uma seção de introdução (<section>) que apresente um resumo do evento em um parágrafo, explicando a data, local e objetivo da conferência.-->
+
+        <section>
+           <h2><p>A Conferência de Tecnologia acontece no 29 de Setembro no Centro de Convenções. O objetivo do evento é promover o compartilhamento de conhecimento sobre inovações tecnológicas e melhores práticas na área de desenvolvimento de software</p></h2>
+        </section>
+
+<!--Uma tabela que organize a agenda de palestras e workshops, contendo as seguintes informações em colunas:
+Data
+Horário
+Título da Palestra/Workshop
+Palestrante
+Local-->       
+            <table border="3" style="border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Horário</th>
+                        <th>Programadores do Amanhã</th>
+                        <th>Palestrante</th>
+                        <th>Sala</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <td>29/09</td>
+                    <td>13:00</td>
+                    <td>Bootcamp OLX</td>
+                    <td>Prof.Marcos Ventura</td>
+                    <td>Sala 2</td>
+                </tbody>
+
+                <tbody>
+                    <td>29/09</td>
+                    <td>16:00</td>
+                    <td>Html</td>
+                    <td>Prof.Claudio Careca</td>
+                    <td>Salão Principal</td>
+                </tbody>
+
+                <!--m rodapé (<footer>) com informações de contato e links para as redes sociais do evento.-->
+           
+                <tbody>
+                    <tfoot>
+                        <td colspan="5">*Sujeito a alterações</td>
+                    </tfoot>
+                </tbody>
+                
+            </table>
+            <footer>
+                <nav>
+                    <ul>
+                        <li><a href="http" target="_blank">Facebook</a></li>
+                        <li><a href="http" target="_blank">Instagram</a></li>
+                       
+                    </ul>
+                </nav>
+            </footer>
+            <!--Use <aside> para incluir informações adicionais ou curiosidades sobre os palestrantes.-->
+            <article>
+                <aside>
+                    <h2>Curiosidades sobre os Palestrantes</h2>
+                    <p>Prof. Marcos Ventura : Especialista em IA e automação, autor de "Inteligência Artificial para o Mundo Real".</p>
+                    <p>Prof. Claudio Careca : Mestre em Segurança da Informação, conhecido por seu estilo descontraído e humorístico.</p>
+                </aside>
+            </article>
+            <footer>
+                <p>Contato: contato@contato</p>
+                <p>Siga-nos nas redes sociais:</p>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </footer>
+                <div>
+
+                </div>
+            </footer>
+            
+            
+                        
+    </body>
+</html>
