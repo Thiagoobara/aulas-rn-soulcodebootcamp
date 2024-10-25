@@ -19,7 +19,7 @@
         <section>
             <h2>Informações do produto</h2>
             <p>Poseidon Wear no mercado há mais de 50 anos lança nossa primeira camiseta deste verão.</p>
-            <img src="foto01.jpg" alt="foto de uma camiseta com um cachorro fofo" width="300" height="300" />
+            <img src="foto01.jpg" alt="Camiseta 100% Algodão com estampa de cachorro fofo" width="300" height="300" />
         </section>
 
         <!-- Características e formulário de contato -->
@@ -28,7 +28,7 @@
             <h2>Características</h2>
             <ul>
                 <li>100% Algodão</li>
-                <li>Tiragem de 5000 uni</li>
+                <li>Tiragem de 5000 unidades</li>
                 <li>Art Design Alberto Roberto</li>
             </ul>
         </section>
@@ -36,12 +36,11 @@
         <!-- Tabela de Especificações Técnicas: Incluir uma tabela com as especificações técnicas do produto -->
         <section>
             <h2>Especificações</h2>
-            <table border="2" style="border-collapse: collapse;">
+            <table border="1" style="border-collapse: collapse;">
                 <thead>
                     <tr>
                         <th>Tamanhos</th>
                         <th>CM</th>
-
                     </tr>
                 </thead>
                 <tbody>
@@ -53,12 +52,10 @@
                         <td>M</td>
                         <td>70</td>
                     </tr>
-
                     <tr>
                         <td>G</td>
                         <td>80</td>
                     </tr>
-
                     <tr>
                         <td>GG</td>
                         <td>90</td>
@@ -66,22 +63,26 @@
                 </tbody>
             </table>
         </section>
+
         <section>
             <nav>
-                <p>Conheca nossos outros produtos.</p>
-                <a href="">Blusa</a>
-                <a href="">Calça</a>
-                <a href="">Camisa</a>
+                <p>Conheça nossos outros produtos.</p>
+                <ul>
+                    <li><a href="">Blusa</a></li>
+                    <li><a href="">Calça</a></li>
+                    <li><a href="">Camisa</a></li>
+                </ul>
             </nav>
-            <img src="foto02.jpg" alt="foto de uma camiseta com um cachorro fofo" width="300" height="300" />
+            <img src="foto02.jpg" alt="Camiseta 100% Algodão com estampa de cachorro fofo" width="300" height="300" />
         </section>
+
         <section>
             <!--Criar um formulário simples para que o usuário possa enviar perguntas sobre o produto. Incluir campos como: Nome, E-mail, Mensagem, Aceite de Termos, Botão de envio.-->
             <form>
-                <h2>Cadestre e ganhe</h2>
+                <h2>Cadastre e ganhe</h2>
                 <div>
                     <label for="cAjudar">Em que posso ajudar?</label>
-                    <textarea name="Ajudar" id="cAjudar" placeholder="Duvidas?"></textarea>
+                    <textarea name="Ajudar" id="cAjudar" placeholder="Dúvidas?" required></textarea>
                 </div>
                 <div>
                     <label for="cNome">Nome</label>
@@ -90,16 +91,16 @@
 
                 <div>
                     <label for="cEmail">Email</label>
-                    <input type="email" id="cEmail" name="Email" required>
+                    <input type="email" id="cEmail" name="Email" placeholder="Email" required />
                 </div>
                 <div>
                     <p>Aceita o Termo de uso e condições?</p>
 
-                    <input type="radio" id="cSim" name="aceita" required />
-                    <label for="Sim">Sim</label>
+                    <input type="radio" id="cSim" name="aceita" value="sim" required />
+                    <label for="cSim">Sim</label>
 
-                    <input type="radio" id="cNão" name="aceita" required />
-                    <label for="Não">Não</label>
+                    <input type="radio" id="cNao" name="aceita" value="nao" required />
+                    <label for="cNao">Não</label>
                 </div>
                 <div>
                     <button type="submit">Enviar</button>
@@ -107,12 +108,12 @@
                 </div>
             </form>
         </section>
+        
         <section>
             <!--Adicione um rodapé na página com informações sobre os direitos da página e um link para acessar a página FAQ.-->
             <footer>
-                <p>&copy; 1986 Poseidon Wear. Direitos de imagem reservados PW</p>
-                <a href="file:///C:/Users/User/Desktop/aulas-rn-soulcodebootcamp/teste01/pagfaq.html">Duvidas?</a>
-
+                <p>&copy; 1974 Poseidon Wear. Direitos de imagem reservados.</p>
+                <a href="pagfaq.html">Dúvidas?</a>
             </footer>
         </section>
     </main>
