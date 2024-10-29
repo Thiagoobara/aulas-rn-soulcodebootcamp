@@ -1,9 +1,12 @@
 /* usei ID pois o titulo  nesse caso é unico */
+.art-backg {
+    background-color: rgb(240, 227, 202);
+}
+
 #titulo-principal {
     color: rgb(31, 232, 199);
     font-family: Arial;
 }
-
 
 .art-section01 .art-subtitle01 {
     color: rgb(1, 26, 27);
@@ -15,14 +18,12 @@
     font-family: 'Franklin Gothic Medium';
 }
 
-
 .art-titlelist .art-list {
     font-family: Arial, sans-serif;
-    transition: color 0.3s ease; /* essa nao foi dado exemplo em aula*/
+    transition: color 0.3s ease; /* essa nao foi dado exemplo em aula */
 }
 
-
-.art-titlelist .art-list:nth-child(1) { /*.art-titlelist é o pai, nth-child() é o filho nesse esquela de lista, dentro da lista (1),(2) logo ele aplica cor para linha 1 linha 2 assim por diante*/
+.art-titlelist .art-list:nth-child(1) { /* .art-titlelist é o pai, nth-child() é o filho nesse esquela de lista, dentro da lista (1),(2) logo ele aplica cor para linha 1 linha 2 assim por diante */
     color: yellow;
 }
 
@@ -38,18 +39,26 @@
     color: black;
 }
 
-
 .art-titlelist .art-list:hover {
     color: darkblue; /* Muda a cor do texto ao passar o mouse */
 }
 
 /* Rodape */
-.artfooter01 .art-txtfooter {
+.art-backg .art-txtfooter {
     color: rgb(19, 59, 8);
     font-family: monospace;
 }
 
 /* Estilo para o rodapé com borda ao passar o mouse */
-.artfooter01:hover {
-    border: 2px solid darkgray; /* Adiciona uma borda ao passar o mouse */
+.art-backg:hover {
+    border: 2px solid rgb(12, 10, 10); /* Adiciona uma borda ao passar o mouse */
+}
+
+/* Links da página: antes e depois de serem visitados */
+footer a:link {
+    color: rgb(19, 227, 158);
+}
+
+footer a:visited {
+    color: purple;
 }
