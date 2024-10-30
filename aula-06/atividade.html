@@ -1,0 +1,53 @@
+<!--Objetivo: Criar uma página HTML para exibir um artigo, aplicando estilização de formatação de texto, cores de fundo e box model.
+
+Instruções:
+HTML Básico: Crie uma estrutura de página com título, subtítulo, parágrafos de conteúdo e seções. Adicione um cabeçalho para o título principal e um rodapé.
+Estilos com CSS: Aplique uma cor de fundo suave à página inteira e uma cor de fundo diferente para o cabeçalho e o rodapé. Defina a formatação de texto com fonte, tamanho, estilo (negrito, itálico) e alinhamento para o título, subtítulo e parágrafos.
+Box Model: Adicione uma borda, espaçamento interno e externo ao cabeçalho e ao rodapé. Nos parágrafos de conteúdo, adicione um espaçamento interno e uma borda inferior para melhorar a legibilidade. Defina uma largura máxima para a seção principal de conteúdo e centralize-a na página.
+Desafio adicional: Adicione uma sombra à caixa do cabeçalho e do rodapé para destacá-los visualmente.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title-main">CSS Primeiros Passos</title>
+    <link rel="stylesheet" href="atividade.css">
+</head>
+
+<body class="art-body">
+    <header class="art-head">
+        <h1>CSS Primeiros Passos</h1>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h2 class="sub-title">Estilo e Formatação de Texto</h2>
+                <p class="art-tex-article">
+                    A propriedade <code>font-family</code> é usada para definir o tipo de fonte do texto. Com ela, podemos escolher
+                    fontes específicas para dar um estilo próprio ao texto e melhorar a leitura. Ex.:
+                    <code>font-family: Arial, Helvetica, sans-serif;</code>
+                </p>
+            </section>
+
+            <section>
+                <h2 class="sub-title">Cores de Fundo e Box Model</h2>
+                <p class="art-tex-article">
+                    A cor de fundo, definida com <code>background-color</code>, é uma das primeiras coisas que chamam a atenção em uma
+                    página e pode ser usada para destacar elementos, como cabeçalhos ou rodapés.
+                </p>
+                <p>Ex.: <code>background-color: #f0f8ff;</code></p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="art-footer">
+        <p>
+            Acesse <a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">Vídeo em Curso</a> <span>e confira.</span>
+        </p>
+    </footer>
+</body>
+
+</html>

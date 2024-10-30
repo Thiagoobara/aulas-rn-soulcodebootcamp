@@ -1,0 +1,50 @@
+
+/* fundo da página */
+body {
+    background-color: rgb(198, 230, 238);
+        margin: 0;
+}
+
+/*cabeçalho*/
+header, footer{
+    background-color: bisque;
+    padding: 10px;
+    text-align: center; /*para centralizar*/
+    box-shadow: 5px 0px 15px gray;
+}
+
+/* titulo*/
+header h1{
+    margin: 0px;
+    font-size: 2rem;
+}
+
+section h2{
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-bottom: 10px;   
+
+}
+
+section{
+    padding: 15px;
+    max-width: 800px;
+    margin: 0px auto; /* margens automaticas*/
+}
+
+/*paragrafos*/
+
+section p{
+    text-align: justify;
+    font: 1.5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid blue;
+}
+
+/*Links rodape*/
+footer span{
+    font-weight: 700;
+}
+
+
+
