@@ -1,0 +1,4 @@
+/* fiz o css para mudar todo texto mais rapido todo o body vai ficar com comic se nao vai substituir por sans */
+body{
+    font-family: 'Comic Sans MS', sans-serif;
+}

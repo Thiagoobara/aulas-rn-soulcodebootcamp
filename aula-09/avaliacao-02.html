@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--1° passo linkar o bootstrap-->
+    <link rel="stylesheet" href="avaliacao-02.css">
+    <title>OtakuGeek</title>
+
+</head>
+
+<body>
+    <nav class="navbar bg-warning border-bottom border-body" data-bs-theme="dark">
+        <!--no bootstrap eu importei um nav para ter um menu clicavel -->
+        <div class="container-fluid"> <!--para um tamanho fluido do nav, se adapta as telas -->
+            <a class="navbar-brand text-black" href="#">OtakuGeek</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Colecionáveis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Funko Pop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mais Links
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Camisetas</a></li>
+                            <li><a class="dropdown-item" href="#">Games Retro</a></li>
+                            <li><a class="dropdown-item" href="#">Quem somos</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-bg-warning p-3 text-center ">
+        <!--padding espaçamento p-3 representa o valor do espaçamento que corresponde a 1 rem-->
+        <h1>Bem-vindo à OtakuGeek!</h1>
+        <p>O melhor lugar para encontrar seus produtos geeks favoritos!</p>
+
+        <a href=""><button type="button" class="btn btn-success">Decoração</button></a>
+        <a href=""><button type="button" class="btn btn-success">Infantil</button></a>
+        <a href=""><button type="button" class="btn btn-success">Feminino</button></a>
+        <a href=""><button type="button" class="btn btn-success">Masculino</button></a>
+    </header>
+
+    <!-- Carrossel para fotos -->
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://acdn.mitiendanube.com/stores/001/752/612/themes/recife/2-slide-1730433661946-2401687403-8f6ef9b643be2c47efc1d63648b6d4a91730433664-1920-1920.webp?988279159"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://acdn.mitiendanube.com/stores/001/752/612/themes/recife/2-slide-1730433661947-3296998276-31362bcd3cbdb7be9224f47a3cbaa5251730433666-1920-1920.webp?988279159"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://acdn.mitiendanube.com/stores/001/752/612/themes/recife/2-slide-1730433661947-2105689789-2e7a81d362ca33fb4239edddafc9f7eb1730433667-1920-1920.webp?988279159"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Produtos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Nossos Produtos</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <!--col ex de 12 colunas ele no tamanho sm vai ocupar as 12 e assim por diante quanto maior a tela as colunas pode ser mais divisiveis, uma tela =100% =12, e 100% md6 é 50% pois 12/6 e 2 e 100/2 e =50 entao 50% e mb e uma margem tentei colocar o xl e o xll nao ficou legal-->
+                    <div class="card h-100">
+                        <img src="https://images.tcdn.com.br/img/img_prod/723087/caneca_quadrada_la_casa_de_papel_bella_ciao_7811_5_c1e45a39268ddc1d8a96addba6ab027d.png"
+                            class="card-img-top" alt="Produto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Caneca</h5>
+                            <p class="card-text">Caneca Quadrada La Casa De Papel</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <img src="https://images.tcdn.com.br/img/img_prod/723087/funko_pop_naruto_pain_akatsuki_934_edicao_especial_7505_1_323ca4dbe0f4524e7a269f35f9c2f339.jpeg"
+                            class="card-img-top" alt="Produto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Funko Pop</h5>
+                            <p class="card-text">Funko Pop Naruto - Pain Akatsuki #944 Edição especial</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <img src="https://down-br.img.susercontent.com/file/br-11134207-7r98o-lr5kmwdofkzx39.webp"
+                            class="card-img-top" alt="Produto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Action Figure</h5>
+                            <p class="card-text">Luffy Nika Gear 5</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Mais Produtos</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <img src="https://images.tcdn.com.br/img/img_prod/723087/luminaria_grogu_the_child_star_wars_8484_1_a7747909060097300fa557f233b68473.jpg"
+                            class="card-img-top" alt="Produto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Luminaria</h5>
+                            <p class="card-text">Luminaria Grogu -The Child Star Wars - Baby Yoda</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <img src="https://images.tcdn.com.br/img/img_prod/723087/kit_cafe_da_manha_bob_esponja_nickelodeon_8952_1_9993d8322f2a095a82559876af359c55.png"
+                            class="card-img-top" alt="Produto 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Café da Manhã</h5>
+                            <p class="card-text">Kit Café da Manhã Bob Esponja Nickelodeon</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100">
+                        <img src="https://static.nerdstore.com.br/produtos/boneco-funko-pop!-pokemon-glaceon/92/EJC-0570-792/EJC-0570-792_zoom1.jpg?ts=1724408323?ims=1088x"
+                            class="card-img-top" alt="Produto 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Funko Pop</h5>
+                            <p class="card-text">Boneco Funko POP! Pokémon - Glaceon</p>
+                            <a href="#" class="btn btn-warning">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="py-5 bg-light">
+        <div class="container"> <!-- abri um container para colocar os cards-->
+            <h2 class="text-center">O que nossos clientes dizem</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Alice Ferreira</h5>
+                            <p class="card-text">"A OtakuGeek tem produtos incríveis! Comprei um Luffy Nika Gear 5 e
+                                amei !"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Claudio Pastel</h5>
+                            <p class="card-text">"A entrega foi rápida e os produtos são de alta qualidade!"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Juninho Careca</h5>
+                            <p class="card-text">"Recomendo para todos os fãs de cultura pop!"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <form class="row g-3">
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3"> <!-- Obs: medidas para se adptar em varios ap-->
+                <label for="validationServer01" class="form-label">Nome</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+                <div class="valid-feedback">
+                    Ao infinito e além!
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <label for="validationServer02" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+                <div class="valid-feedback">
+                    Ao infinito e além!
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <label for="validationServerUsername" class="form-label">NickName</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                        aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                        Dame!
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <label for="validationServer03" class="form-label">Cidade</label>
+                <input type="text" class="form-control is-invalid" id="validationServer03"
+                    aria-describedby="validationServer03Feedback" required>
+                <div id="validationServer03Feedback" class="invalid-feedback">
+                    Dame!
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <label for="validationServer04" class="form-label">Estado</label>
+                <select class="form-select is-invalid" id="validationServer04"
+                    aria-describedby="validationServer04Feedback" required>
+                    <option selected disabled value=""></option>
+                    <option>...</option>
+                </select>
+                <div id="validationServer04Feedback" class="invalid-feedback">
+                    Dame!
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <label for="validationServer05" class="form-label">Cep</label>
+                <input type="text" class="form-control is-invalid" id="validationServer05"
+                    aria-describedby="validationServer05Feedback" required>
+                <div id="validationServer05Feedback" class="invalid-feedback">
+                    Dame!
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                        aria-describedby="invalidCheck3Feedback" required>
+                    <label class="form-check-label" for="invalidCheck3">
+                        Aceito as condições
+                    </label>
+                    <div id="invalidCheck3Feedback" class="invalid-feedback">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                <button class="btn btn-primary" type="submit">Enviar Formulario</button>
+            </div>
+        </form>
+        <p>&copy; 2024 OtakuGeek. Todos os direitos reservados.</p>
+        <div>
+            <a href="#" class="text-white">Facebook</a> |
+            <a href="#" class="text-white">Instagram</a> |
+            <a href="#" class="text-white">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
