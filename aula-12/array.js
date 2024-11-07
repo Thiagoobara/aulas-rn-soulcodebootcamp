@@ -34,3 +34,19 @@ for(let nome of nomes ){   // for each para cada vez que repetir no nome ele atr
     console.log("Bem vindos", nome);
 
 }
+
+
+console.log("****************************");
+
+const frutas =["Maçã" , "Laranja" , "Limão", "Pera", "Cajarana"]
+frutas.push("Ciriguela")   //para inserir no final da array 
+frutas.pop(); //ele remove o ultimo elemento da lista 
+console.log(frutas);
+
+console.log(frutas.includes("Caju")); // false pq nao esta na lista
+console.log(frutas.includes("Maçã")); // true pq esta na lista 
+console.log(frutas.indexOf("Limão"));// resultado 3
+console.log(frutas.indexOf("Goiaba")); // devolve -1
+
+frutas.splice(2, 1);// para remover um elemento do vetor  na posicao 2 , 1 x se tivesse colocado 2 iria deletar 2 elemento a partir do item selecionado
+console.log(frutas);
