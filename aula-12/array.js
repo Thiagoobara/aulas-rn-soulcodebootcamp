@@ -50,3 +50,14 @@ console.log(frutas.indexOf("Goiaba")); // devolve -1
 
 frutas.splice(2, 1);// para remover um elemento do vetor  na posicao 2 , 1 x se tivesse colocado 2 iria deletar 2 elemento a partir do item selecionado
 console.log(frutas);
+
+
+
+
+
+
+
+
+
+
+
